@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(252, 255, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(34, 68, 0);
+}
+
+/*id sempre é com # no CSS*/
+#principal{
+    text-align:center;
+    background-color: rgb(34, 68, 0);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+h2{
+    color: rgb(133, 185, 81);
+}
+
+.basico{
+    color: springgreen;
+    background-color: rgb(17, 0, 0);
+    font-weight: bolder;
+}
+.intermediario{
+ color: yellow;
+    background-color: rgb(17, 0, 0);
+    font-weight: bolder;
+}
+.avancado{
+    color: red;
+    background-color: rgb(17, 0, 0);
+    font-weight: bolder;
+}
+.destaque{
+    font-style: italic;
+}
