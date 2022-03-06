@@ -1,0 +1,76 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(234, 211, 255);
+    
+}
+header{
+    background-color: rgba(206, 167, 243, 0.781);
+    color:rgb(75, 42, 105);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+   /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
+}
+#assunto{
+    margin: 10px;
+    text-align: center;
+}
+
+nav{
+    /*background-color:rgb(150, 106, 192);*/
+    padding: 3px;
+    
+    
+}
+nav>a{
+    background-color:rgb(150, 106, 192);
+    box-shadow: 1px 1px 1px rgba(75, 42, 105, 0.863);
+    text-decoration: none;
+    color: aliceblue; 
+    font-weight: bold;
+    margin:3px;
+    padding: 3px 10px;
+    border-radius: 5px 0;
+    
+}
+nav>a:hover{
+    
+    background-color:rgb(231, 129, 214);
+    color:rgb(75, 42, 105);
+    text-decoration: underline;
+    padding: 6px 20px;
+}
+main{
+    background-color: rgb(150, 106, 192);
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    
+}
+article{
+    background-color: rgb(255, 223, 244) ;
+    color: rgb(150, 106, 192);
+    box-shadow: 1px 1px 1px rgba(75, 42, 105, 0.863);
+    padding: 0 10px;
+    
+}
+article>aside{
+    background-color: rgba(206, 167, 243, 0.781);
+    border-radius: 10px; 
+    
+    text-align: center;
+}
+article>aside>p{
+    margin: 0;
+    padding: 3px;
+}
+footer{
+    background-color: rgba(206, 167, 243);
+    color:rgb(75, 42, 105);
+    text-align: center;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 0 0 10px 10px;
+}
