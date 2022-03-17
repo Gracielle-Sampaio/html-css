@@ -1,0 +1,20 @@
+.granola1{}
+.granola2{}
+.granola3{}
+.granola4{}
+.granola5{}
+.granola6{}
+.circulo{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(143, 67, 36);
+  border-radius: 50%;
+}
+.embalagem{ 
+ border-top: 80px solid rgb(157, 102, 209); 
+ border-left: 30px solid transparent; 
+ border-right: 30px solid transparent; 
+ height: 200px; 
+ width: 215px;
+
+}
