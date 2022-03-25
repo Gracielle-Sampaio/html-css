@@ -65,17 +65,15 @@ main{
 }
 h1{
   color: var(--cor1);
-}
-img .icone{
-  width: 40px;
-  height: 40px;
-}
-.codigo05 h1{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
-  color: var(--cor1);
 }
+p{
+  color: var(--cor3);
+  font-weight: 700;
+}
+
 .codigo05  h2{
   margin: 20px;
   color: var(--cor4);
@@ -95,6 +93,7 @@ img .icone{
 }
 .codigo05 .apresentacao div>p{
   padding: 20px;
+  font-weight: 400;
 }
 .codigo05 .links{
   padding: 10px;
@@ -104,10 +103,7 @@ img .icone{
 }
 .codigo05 .links ul{
   list-style: none;
- 
-  
   color: var(--cor3);
-  
 }
 .codigo05 .links ul a{
   text-decoration: none;
@@ -132,11 +128,27 @@ img .icone{
   margin: 50px;
   font-weight: 700;
 }
-.codigo01 h1{
+
+.codigo02 p{
+  display: flex;
+  margin: 50px;
+  background-color: var(--cor1);
+  border-radius: 15px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
 }
-.codigo02{
+.codigo02 p img{
+  background-color: var(--cor2);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  padding: 10px;
+}
+.codigo03 div{
+  margin-left: 20% ;
+  padding: 10px;
 
 }
