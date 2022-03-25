@@ -59,6 +59,9 @@ nav a:hover{
 main{
   box-shadow: 1px 1px 3px var(--cor4);
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 800px;
   height: 700px;
   padding: 10px;
@@ -116,8 +119,9 @@ p{
 }
 .codigo05 .links ul li {
    display: flex;
+   margin-left: -30%;
    align-items: center;
-    align-content: center;
+   align-content: center;
 }
 .codigo01 p{
   background-color: var(--cor1);
@@ -148,7 +152,17 @@ p{
   padding: 10px;
 }
 .codigo03 div{
-  margin-left: 20% ;
   padding: 10px;
+}
 
+.codigo04 div{
+ margin-left: -50%;
+ color: var(--cor3);
+}
+.codigo04 ul{
+  list-style: none;
+  text-indent: 15px;
+}
+.codigo04 ul li{
+  line-height: 40px;
 }
