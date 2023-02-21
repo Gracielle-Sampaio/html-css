@@ -5,26 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        div{
-            display: inline-block;
-            background-color: aquamarine;
-            border: 1px solid black;
-            text-align: center;
-            height: 200px;
-            width: 200px;
+        body{
+            font-family: 'Courier New', Courier, monospace;
         }
-        
-        div:hover{
-            background-color: pink;
-            font-size: 59px;
-            box-shadow: 10px 10px 25px rgba(15, 15, 78, 0.295);
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: yellowgreen;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::before{
+            content: '✹';
+        }
+        a::after{
+            content: '❊';
+            text-decoration: none;
+            font-weight: normal;
+            color: aquamarine;
+        }
+        .especial::after{
+            content: '✱';
+        }
+        .especial::before{
+            content: '✲' ;
         }
     </style>
-    <title>Pseudo-classes</title>
+    <title>Links</title>
 </head>
 <body>
-    <div id="d1">01</div>
-    <div id="d2">02</div>
-    <div id="d3">03</div>
+    <ul>
+        <li><a class="especial" href="#">Repositorio Github</a></li>
+        <li><a href="#">Perfil no insta</a></li>
+        <li><a href="#">Perfil no dev.to</a></li>
+    </ul>
 </body>
 </html>

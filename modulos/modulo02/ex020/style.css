@@ -1,20 +1,14 @@
-@charset "utf-8";
-@font-face {
-    font-family:'love';
-    src: url('fonts/lovestory.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-    font-size: 1em;
-    color: black;
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
 }
 h1{
-    font-family: 'love';
-    font-size: 2em;
+    text-align: center;
 }
 h2{
-    font-family: 'love';
+    text-align: right;
+}
+p{
+    text-align: justify;
+    text-indent: 60px;
 }
