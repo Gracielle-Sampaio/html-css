@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
-header{
-    
+*{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+section{
+    font-style: italic;
 }
