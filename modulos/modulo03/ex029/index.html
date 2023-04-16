@@ -5,8 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas</title>
+    <style>
+        table{
+            width: 300px;
+            border-collapse: collapse;
+            border: 3px solid rgb(121, 61, 61);
+            border-radius: 100px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px; 
+            
+        }
+        tr.linha{
+            background-color: gray;
+        }
+        td.dado{
+            background-color: rgb(181, 113, 245);
+        }
+    </style>
 </head>
 <body>
+    <h1>Minha primeira tabela</h1>
     
+        <!--Hierarquia de tabelas simples
+        table = tabela
+            table row = linha da tabela
+            table header =  cabeçalho da tabela
+            table data = dado tabela
+
+        -->
+    <table>
+        <tr> <!--primeira linha-->
+            <td class="dado">A1</td>
+            <td>A2</td>
+            <td>A3</td>
+        </tr>
+        <tr class="linha"> <!--SEGUNDA linha-->
+            <td>B1</td>
+            <td>B2</td>
+            <td>B3</td>
+        </tr>
+        <tr> <!--TERCEIRA linha-->
+            <td>C1</td>
+            <td>C2</td>
+            <td>C3</td>
+        </tr>
+    </table>
 </body>
 </html>
